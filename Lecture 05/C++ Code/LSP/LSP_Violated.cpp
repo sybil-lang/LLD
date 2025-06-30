@@ -55,6 +55,8 @@ public:
     }
 };
 
+
+//if we call the withdraw() we are gertting error and it is breaking the code
 class FixedTermAccount : public Account {
 private:
     double balance;
