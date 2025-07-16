@@ -60,7 +60,7 @@ public:
 // Document class responsible for holding a collection of elements
 class Document {
 private:
-    vector<DocumentElement*> documentElements;
+    vector<DocumentElement*> documentElements; 
 
 public:
     void addElement(DocumentElement* element) {
